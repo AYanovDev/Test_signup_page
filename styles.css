@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  margin: 0;
+}
+
+img {
+  min-width: 600px;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar {
+  background-color: black;
+  width: 100%;
+}
+
+.contains_form {
+  width: 750px;
+  flex-shrink: 0;
+}
+
+.logo {
+  width: 600px;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 250px;
+  color: white;
+}
+
+.credit {
+  position: relative;
+  bottom: 25px;
+  left: 25%;
+}
