@@ -1,6 +1,7 @@
 body {
   display: flex;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -17,6 +18,7 @@ img {
 .contains_form {
   width: 750px;
   flex-shrink: 0;
+  background-color: rgb(235, 237, 240);
 }
 
 .logo {
@@ -26,10 +28,87 @@ img {
   position: absolute;
   top: 250px;
   color: white;
+  font-size: 50px;
+  text-align: center;
 }
 
 .credit {
   position: relative;
   bottom: 25px;
   left: 25%;
+  color: white;
+}
+
+.credit a {
+  color: white;
+}
+
+.pitch {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 170px 40px 0px 40px;
+}
+
+form {
+  font-size: 25px;
+}
+
+.data_input {
+  display: flex;
+  gap: 80px;
+}
+
+.data_item {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_area {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: rgb(70, 71, 71);
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+input {
+  border-radius: 3px;
+  border-style: solid;
+  border-color: rgb(219, 217, 217);
+  border-width: 1px;
+  min-height: 23px;
+  min-width: 200px;
+}
+
+.box_with_shadow {
+  background-color: white;
+  padding: 20px 40px 45px 40px;
+  box-shadow: 2px 6px 16px #bfc0bf;
+}
+
+.submit_and_log_in {
+  margin: 40px 0px 0px 40px;
+}
+
+button {
+  background-color: rgb(115, 131, 82);
+  height: 50px;
+  width: 215px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgb(115, 131, 82);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.have_account {
+  font-size: 18px;
+}
+
+.have_account a {
+  color: rgb(115, 131, 82);
+  font-weight: bolder;
+  text-decoration: none;
 }
